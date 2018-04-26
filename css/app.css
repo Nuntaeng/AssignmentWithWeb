@@ -1,0 +1,64 @@
+body {
+    background: url("../image/back.jpg");
+    background-repeat: repeat;
+}
+
+#title p {
+    position: relative;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    height: 100%;
+    top: 900px;
+}
+
+#gameboard {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+}
+
+#ingame p {
+    position: relative;
+}
+
+#title-img {
+    position: relative;
+    width: 60%;
+    height: 30%;
+    left: 50%;
+    top: -300px;
+    transform: translate(-50%);
+}
+
+.hantei {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    z-index: 110;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    display: none;
+}
+
+.card {
+    margin: 5px;
+    width: 150px;
+    height: 200px;
+}
+
+.card .front img {
+    position: relative;
+    image-orientation: from-image;
+    width: 150px;
+    height: 200px;
+}
+
+.card .back img {
+    position: relative;
+    image-orientation: from-image;
+    width: 150px;
+    height: 200px;
+}
